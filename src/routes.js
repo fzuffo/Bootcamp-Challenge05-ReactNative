@@ -3,6 +3,7 @@ import { createAppContainer } from 'react-navigation';
 
 import Main from './pages/Main';
 import User from './pages/User';
+import Repository from './pages/Repository';
 
 const Routes = createAppContainer(
   // Rotas das paginas
@@ -11,6 +12,7 @@ const Routes = createAppContainer(
       // Tipo de configuraçao de rotas
       Main,
       User,
+      Repository,
     },
     {
       headerLayoutPreset: 'center', // por padrao Android alinha pela esquerda
